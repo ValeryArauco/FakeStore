@@ -1,0 +1,13 @@
+<!-- <app-busqueda-producto></app-busqueda-producto> -->
+<div class="productos">
+  <div *ngFor="let producto of productos" class="producto">
+    <app-detalle-producto
+      [titulo]="producto.title"
+      [precio]="producto.price"
+      [imagen]="producto.image"
+      [id]="producto.id"
+    ></app-detalle-producto>
+
+  </div>
+</div>
+

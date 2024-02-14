@@ -1,0 +1,18 @@
+<!-- detalle-producto.component.html -->
+<div class="detalle-producto">
+    <h2>{{ producto.title | uppercase }} Details</h2>
+    <div class="contenido">
+      <div class="imagen-container">
+        <img [src]="producto.image" alt="Product Image">
+      </div>
+      <div class="info-container">
+        <div><span>ID:</span> {{ producto.id }}</div>
+        <div><span>Precio:</span> {{ producto.price | currency }}</div>
+        <div><span>Descripción:</span> {{ producto.description }}</div>
+        <div><span>Categoría:</span> {{ producto.category }}</div>
+        <div><span>Calificación:</span> {{ producto.rating.rate }} ({{ producto.rating.count }} votos)</div>
+      </div>
+    </div>
+  </div>
+  
+  

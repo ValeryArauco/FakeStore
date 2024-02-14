@@ -1,0 +1,33 @@
+/* detalle-producto.component.css */
+
+.detalle-producto {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease-in-out; /* Agrega una transición al pasar el ratón */
+  }
+  
+  .detalle-producto:hover {
+    transform: scale(1.05); /* Efecto de escala al pasar el ratón */
+  }
+  
+  .titulo {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .precio {
+    font-size: 1.1em;
+    color: #4CAF50; /* Color del precio, puedes ajustarlo según tus preferencias */
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px; /* Esquinas redondeadas para la imagen */
+  }
+  

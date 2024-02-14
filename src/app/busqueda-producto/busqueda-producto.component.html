@@ -1,0 +1,13 @@
+<div id="search-component">
+    <h4><label for="search-box">Buscar producto</label></h4>
+  
+    <input #searchBox id="search-box" (input)="search(searchBox.value)" />
+  
+    <ul class="search-result">
+      <li *ngFor="let producto of productos$ | async" >
+        <a routerLink="/info/{{producto.id}}">
+          {{producto.name}}
+        </a>
+      </li>
+    </ul>
+  </div>

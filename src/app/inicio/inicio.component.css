@@ -1,0 +1,39 @@
+.inicio {
+    background-image: url('../../assets/background.jpg'); 
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 100px;
+    align-items: center;
+    height: 60vh;
+  }
+
+  
+  .inicio h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+  }
+  
+  .inicio p {
+    font-size: 1.2em;
+  }
+  
+
+.boton-comprar-ahora{
+    background-color: black; 
+    color: white; 
+    padding: 10px 20px;
+    font-size: 1.2em; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+  }
+  
+  .boton-comprar-ahora:hover {
+    background-color: #45a049;
+    
+  }
+  
+  
